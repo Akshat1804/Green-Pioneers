@@ -1,0 +1,157 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#inset{
+    box-shadow: rgba(0, 0, 0, 2) 0px 5px 15px;
+}
+
+body{
+    background-color: #f4f4f4;
+}
+
+#bodi{
+  background-image: url(./src/images/thick-lush-green-forest.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.img{
+  background-image: url(./src/images/abcd/abcd.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+#img::-webkit-scrollbar{
+  display: none;
+}
+
+/*survey css*/
+.survey-container {
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+    background: #f4f4f4;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  h2 {
+    color: #2d6a4f;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  input, select {
+    margin-top: 5px;
+    padding: 8px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  button {
+    margin-top: 15px;
+    padding: 10px;
+    background: #2d6a4f;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s ease;
+  }
+  
+  button:hover {
+    background: #40916c;
+  }
+
+  /* General Dashboard Styling */
+#dashboard-container {
+    display: flex;
+    height: 100vh;
+    background-color: #f4f4f4;
+  }
+  
+  /* Sidebar with Image */
+  /* #sidebar {
+    /* background-image: url('/src/images/sidebar.jpg') ; */
+    /* background-size: cover; */
+    /* color: white; */
+  /* } */
+
+  /* Dashboard Main Content */
+  #dashboard-content {
+    flex-grow: 1;
+    
+  }
+
+  #nav{
+    background-image: url(./src/images/thick-lush-green-forest.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: rgba(0, 0, 0, 1) 0px 5px 15px;
+  }
+  
+  /* Glowing Cards */
+  #stat-box {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0px 0px 15px rgba(22, 22, 22, 0.4); /* Green Glow */
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  #stat-box:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Leaderboard */
+  #leaderboard-container {
+    background-color: #4F7942;
+    /* background: radial-gradient(#28b664, #003d3d); */
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+  }
+  
+  #leaderboard-item {
+    padding: 10px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  }
+  
+  /* Map Styling */
+  #map-container {
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Animated Play Button */
+  #play-game-btn {
+    background: yellowgreen ;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 18px;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+    animation: glow 1.5s infinite alternate;
+  }
+  
+  
+ 
