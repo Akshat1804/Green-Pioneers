@@ -2,7 +2,7 @@ import React from "react";
 import { Route, Routes } from "react-router-dom";
 // import NavBar from "./components/NavBar";
 import Dashboard from "./Pages/Dashboard";
-import AuthPage from "./Auth/Authpage";
+import AuthPage from "./Auth/AuthPage";
 import Quiz from "./Pages/Quiz";
 import Game from "./Pages/game";
 import ProjectCollab from "./Pages/ProjectCollab";
